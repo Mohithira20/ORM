@@ -1,4 +1,4 @@
-# Ex01 Django ORM Web Application
+# Ex02 Django ORM Web Application
 ## Date: 23/11/2026
 
 ## AIM
@@ -70,7 +70,7 @@ class CarAdmin(admin.ModelAdmin):
         'color'
     )
 
-admin.py
+Admin.py
 
 from django.contrib import admin
 from .models import Car,CarAdmin
